@@ -1,8 +1,8 @@
 clc; clear all; close all;
 %% Definicion de parametros iniciales
 lambda = 5;
-RVs = 1000;
-nr_values = 10e3;
+RVs = 1000; %1000 variables aleatorias
+nr_values = 10e3; %Realizaciones
 ValsMatrix = zeros(nr_values, RVs);
 
 %% Generacion de la matriz de valores aleatorios
